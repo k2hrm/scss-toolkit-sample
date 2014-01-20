@@ -1,0 +1,138 @@
+.main {
+  padding-top: 40px;
+}
+
+.btn {
+  text-align: center;
+  margin-bottom: 1.5em;
+  width: 100px;
+  float: left;
+  margin-right: 1em;
+}
+
+h2 {
+  border-left: 5px solid #373737;
+  text-indent: .2em;
+}
+
+.section {
+  clear: left;
+  margin-bottom: 1em;
+  overflow: hidden;
+}
+
+.usage {
+  font-size: 10px;
+  margin-bottom: 1em; }
+
+.btn.blue {
+  /* IE8以下対策でベースカラーを背景色に指定 */
+  background: blue;
+  /* 角丸を3px指定(compassのincludeでブラウザ間の差異を吸収) */
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  /* box-shadowを指定(compassのincludeでブラウザ間の差異を吸収) */
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3), inset 0px 0px 1px rgba(255, 255, 255, 0.5);
+  -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3), inset 0px 0px 1px rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3), inset 0px 0px 1px rgba(255, 255, 255, 0.5);
+  /* text-shadowを指定(compassのincludeでブラウザ間の差異を吸収) */
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.7), 0px 1px 0px rgba(255, 255, 255, 0.3);
+  /* 背景色を指定(compassのincludeでブラウザ間の差異を吸収) */
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #7f7fff), color-stop(50%, #0000ff), color-stop(50%, #000099), color-stop(100%, #3232ff));
+  background-image: -webkit-linear-gradient(#7f7fff, #0000ff 50%, #000099 50%, #3232ff);
+  background-image: -moz-linear-gradient(#7f7fff, #0000ff 50%, #000099 50%, #3232ff);
+  background-image: -o-linear-gradient(#7f7fff, #0000ff 50%, #000099 50%, #3232ff);
+  background-image: linear-gradient(#7f7fff, #0000ff 50%, #000099 50%, #3232ff);
+  /* ベースカラーに黒を8:2の割合で混合した色でborder(枠線)をつける */
+  border: 1px solid #0000cc;
+  color: white;
+  display: block;
+  padding: 6px 10px;
+  text-decoration: none; }
+  .btn.blue:hover {
+    /* box-shadowのinsetを明るく大きくし、rolloverを表現 */
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3), inset 0px 0px 15px rgba(255, 255, 255, 0.6);
+    -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3), inset 0px 0px 15px rgba(255, 255, 255, 0.6);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3), inset 0px 0px 15px rgba(255, 255, 255, 0.6);
+    /* ベースカラーでborder(枠線)をつける */
+    border: 1px solid blue; }
+
+.btn.red {
+  /* IE8以下対策でベースカラーを背景色に指定 */
+  background: red;
+  /* 角丸を3px指定(compassのincludeでブラウザ間の差異を吸収) */
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  /* box-shadowを指定(compassのincludeでブラウザ間の差異を吸収) */
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3), inset 0px 0px 1px rgba(255, 255, 255, 0.5);
+  -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3), inset 0px 0px 1px rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3), inset 0px 0px 1px rgba(255, 255, 255, 0.5);
+  /* text-shadowを指定(compassのincludeでブラウザ間の差異を吸収) */
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.7), 0px 1px 0px rgba(255, 255, 255, 0.3);
+  /* 背景色を指定(compassのincludeでブラウザ間の差異を吸収) */
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff7f7f), color-stop(50%, #ff0000), color-stop(50%, #990000), color-stop(100%, #ff3232));
+  background-image: -webkit-linear-gradient(#ff7f7f, #ff0000 50%, #990000 50%, #ff3232);
+  background-image: -moz-linear-gradient(#ff7f7f, #ff0000 50%, #990000 50%, #ff3232);
+  background-image: -o-linear-gradient(#ff7f7f, #ff0000 50%, #990000 50%, #ff3232);
+  background-image: linear-gradient(#ff7f7f, #ff0000 50%, #990000 50%, #ff3232);
+  /* ベースカラーに黒を8:2の割合で混合した色でborder(枠線)をつける */
+  border: 1px solid #cc0000;
+  color: white;
+  display: block;
+  padding: 6px 10px;
+  text-decoration: none; }
+  .btn.red:hover {
+    /* box-shadowのinsetを明るく大きくし、rolloverを表現 */
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3), inset 0px 0px 15px rgba(255, 255, 255, 0.6);
+    -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3), inset 0px 0px 15px rgba(255, 255, 255, 0.6);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3), inset 0px 0px 15px rgba(255, 255, 255, 0.6);
+    /* ベースカラーでborder(枠線)をつける */
+    border: 1px solid red; }
+
+.btn.yellow {
+  /* IE8以下対策でベースカラーを背景色に指定 */
+  background: yellow;
+  /* 角丸を3px指定(compassのincludeでブラウザ間の差異を吸収) */
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  /* box-shadowを指定(compassのincludeでブラウザ間の差異を吸収) */
+  -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3), inset 0px 0px 1px rgba(255, 255, 255, 0.5);
+  -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3), inset 0px 0px 1px rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3), inset 0px 0px 1px rgba(255, 255, 255, 0.5);
+  /* text-shadowを指定(compassのincludeでブラウザ間の差異を吸収) */
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.7), 0px 1px 0px rgba(255, 255, 255, 0.3);
+  /* 背景色を指定(compassのincludeでブラウザ間の差異を吸収) */
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffff7f), color-stop(50%, #ffff00), color-stop(50%, #999900), color-stop(100%, #ffff32));
+  background-image: -webkit-linear-gradient(#ffff7f, #ffff00 50%, #999900 50%, #ffff32);
+  background-image: -moz-linear-gradient(#ffff7f, #ffff00 50%, #999900 50%, #ffff32);
+  background-image: -o-linear-gradient(#ffff7f, #ffff00 50%, #999900 50%, #ffff32);
+  background-image: linear-gradient(#ffff7f, #ffff00 50%, #999900 50%, #ffff32);
+  /* ベースカラーに黒を8:2の割合で混合した色でborder(枠線)をつける */
+  border: 1px solid #cccc00;
+  color: white;
+  display: block;
+  padding: 6px 10px;
+  text-decoration: none; }
+  .btn.yellow:hover {
+    /* box-shadowのinsetを明るく大きくし、rolloverを表現 */
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3), inset 0px 0px 15px rgba(255, 255, 255, 0.6);
+    -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3), inset 0px 0px 15px rgba(255, 255, 255, 0.6);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3), inset 0px 0px 15px rgba(255, 255, 255, 0.6);
+    /* ベースカラーでborder(枠線)をつける */
+    border: 1px solid yellow; }
+
+.text-outline-character {
+  text-shadow: white -1px -1px 0px, white 1px -1px 0px, white 1px 1px 0px, white -1px 1px 0px, rgba(0, 0, 0, 0.8) 1px 2px 3px;
+  color: blue;
+  font-size: 60px;
+  line-height: 60px;
+}

@@ -7,6 +7,11 @@ GEM
     sinatra (1.1.0)
       rack (~> 1.1)
       tilt (~> 1.1)
+    sinatra-advanced-routes (0.5.3)
+      sinatra (~> 1.0)
+    sinatra-reloader (0.5.0)
+      sinatra (~> 1.0)
+      sinatra-advanced-routes (~> 0.5.0)
     thin (1.5.1)
       daemons (>= 1.0.9)
       eventmachine (>= 0.12.6)
@@ -18,4 +23,5 @@ PLATFORMS
 
 DEPENDENCIES
   sinatra (= 1.1.0)
+  sinatra-reloader
   thin
